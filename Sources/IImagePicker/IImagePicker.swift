@@ -1,8 +1,10 @@
 // swiftlint:disable all
 //  IIImagePicker.swift
 
+#if os(iOS)
 import UIKit
 import MobileCoreServices
+#endif
 import AVFoundation
 
 public typealias IImagePickerDelegate = UIImagePickerControllerDelegate & UINavigationControllerDelegate

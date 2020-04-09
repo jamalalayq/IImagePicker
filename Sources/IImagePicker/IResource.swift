@@ -5,7 +5,9 @@
 //  Created by Jamal alayq on 9/29/19.
 //
 
+#if os(iOS)
 import UIKit
+#endif
 
 public struct IResource {
     public let name: String

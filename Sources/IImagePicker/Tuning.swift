@@ -2,7 +2,9 @@
 // Tuning.swift
 // Created by Jamal alayq on 9/29/19.
 
+#if os(iOS)
 import UIKit
+#endif
 
 /// In order to define picking mode
 ///
